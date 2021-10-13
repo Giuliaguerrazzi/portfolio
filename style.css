@@ -62,7 +62,7 @@ ul.menu-container a
 }
 
 ul.menu-container a:hover {
-    color: #ffb703;
+    color: #a8dadc;
     transition: 0.5s;
 }
 
@@ -73,7 +73,7 @@ ul.brackets a:before, ul.brackets a:after
     font-size: 35px;
     top: -5px;
     transition: all 0.3s;
-    color: #ffb703;
+    color: #a8dadc;
 }
 
 ul.brackets a:before
@@ -120,7 +120,7 @@ ul.brackets a:hover:before, ul.brackets a:hover:after
 }
 
 .about-me h2 {
-    color: #ffb703;
+    color: #a8dadc;
     font-size: 40px;
     text-align: center;
 }
