@@ -224,7 +224,7 @@ ul.brackets a:hover:before, ul.brackets a:hover:after
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 90px 0;
+    padding-bottom: 90px;
 }
 
 .icons ul li {
@@ -235,6 +235,9 @@ ul.brackets a:hover:before, ul.brackets a:hover:after
     width: 80px;
 }
 
+.icons h2 {
+    color: #a8dadc;
+}
 /* footer */
 footer {
     background-color: rgb(36,36,36);
