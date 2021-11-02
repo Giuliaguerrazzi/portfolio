@@ -8,6 +8,7 @@
 
 a {
     text-decoration: none;
+    color: none;
 }
 
 li {
@@ -98,9 +99,10 @@ ul.brackets a:hover:before, ul.brackets a:hover:after
 
 .name {
     text-align: center;
-    position: absolute;
-    left: 34%;
-    top: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
 }
 
 .name h1 {
@@ -148,6 +150,11 @@ ul.brackets a:hover:before, ul.brackets a:hover:after
 
 .about-me .box .bio {
     line-height: 30px;
+    text-align: center;
+}
+
+.about-me .box .bio i {
+  font-size: 25px;
 }
 
 /*  WORKS */
@@ -288,4 +295,25 @@ footer i:hover {
 
 footer small i {
     font-size: 15px;
+}
+
+@media screen and (max-width: 760px) {
+    nav .navbar {
+        display: none;
+    }
+
+    .video-container {
+        width: auto;
+    }
+
+    .name {
+        padding: 100px;
+    }
+
+    .about-me .box .img {
+        display: none;
+    }
+
+    
+    
 }
